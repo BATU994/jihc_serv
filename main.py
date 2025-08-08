@@ -40,7 +40,8 @@ def create_user(user_data: UserCreate, db: Session = Depends(get_db)):
         email=user_data.email,
         hashed_password=hashed,
         name=user_data.name,
-        group=user_data.group  # ✅ учтено новое поле
+        group=user_data.group,
+        gender=user_data.gender 
     )
 
     db.add(new_user)

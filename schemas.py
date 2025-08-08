@@ -13,3 +13,4 @@ class UserCreate(BaseModel):
     password: str
     name: Optional[str] = None
     group: Optional[str] = None
+    gender: str
