@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlmodel
+python-jose
+passlib[bcrypt]
+pydantic
+python-multipart
+psycopg2-binary   
+aiosqlite      
